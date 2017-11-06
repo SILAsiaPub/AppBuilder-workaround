@@ -32,3 +32,12 @@ The following books of the OT have some ommissions:
   ```
 1. You just need to change the audio path, book and chapter numbers on three lines.
 
+## 4 App icon on desktop when clicked does not start SAB
+
+This is not an SAB issue but rather a computer issue where .jar files are associated with nothing or another program.
+
+### Here are some solutions
+
+* Instead of the shortcut pointing to the .jar file, change the link so it points to the sab.bat file.
+* You can force your registry to point to your java insallations. See the jar-fix-reg.cmd. This process creates a backup file of your registration entry so it is eacy to Merge the old entry back if somthing else breaks.
+* There are various FixJava programs available on the internet.
