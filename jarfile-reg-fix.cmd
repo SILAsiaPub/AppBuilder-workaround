@@ -19,9 +19,9 @@ goto :eof
 :writereg
 :: reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Server" /v DisplayName /t REG_SZ /d Server
 echo Writing new values to registry. Old values have been backed up.
-echo  Should you need to restore old values, then right click on the dated file then select Merge.
+echo Should you need to restore old values, then right click on the dated file then select Merge.
 reg add "HKLM\SOFTWARE\Classes\.jar" /ve /t REG_SZ /d jarfile
-reg add "HKLM\SOFTWARE\Classes\jarfile\shell\open\command" /ve /t REG_SZ /d "\"%javaw:\=\\%\" -jar \"%%1\" %%*"
+reg add "HKLM\SOFTWARE\Classes\jarfile\shell\open\command" /ve /t REG_SZ /d "\"%javaw%\" -jar \"%%1\" %%*"
 goto :eof
 
 :backupreg
