@@ -1,5 +1,6 @@
 @echo off
 echo Starting to collect information about your system.
+call :check_Permissions
 call :detectdateformat
 call :date
 call :time
@@ -101,4 +102,19 @@ echo.>> java.reg
 echo [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\jarfile\shell\open\command]>> java.reg
 echo ^@="\"%javaw:\=\\%\" -jar \"%%1\" %%*">> java.reg
 echo.>> java.reg
+goto :eof
+
+:check_Permissions
+    echo Administrative permissions required. 
+    echo Detecting permissions...
+
+    net session >nul 2>&1
+    if %errorLevel% == 0 (
+        echo Success: Administrative permissions confirmed.
+    ) else (
+        echo Failure: You need to run this file as Administrator.
+        echo Start this file by Right clicking and choose: Run as administrator
+        pause
+        exit
+    )
 goto :eof
