@@ -1,9 +1,13 @@
 @echo off
-echo Create a keystore with keystore_name and key_alias as parameters.
+echo Creating a keystore with keystore_name and key_alias.
+if not defined 
 set keystorename=%1
 set keyalias=%2
-if not defined keystorename set keystorename=my-release-key
-if not defined keyalias set keyalias=my-alias
+if not defined keystorename set /P keystorename=Enter your key store name (no spaces): 
+if not defined keyalias set \P keyalias=Enter your keystore alias (no spaces): 
+echo.
+echo Be sure to remember the pass word you use in the following prompts.
+echo.
 call :getjavapath
 set keytool=%javapath%\keytool.exe
 if not exist "%keytool%" echo The keytool.exe was not found. This program will exit. & exit
