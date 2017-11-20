@@ -110,9 +110,13 @@ goto :eof
 
     net session >nul 2>&1
     if %errorLevel% == 0 (
+        echo.
         echo Success: Administrative permissions confirmed.
+        echo.
     ) else (
+        echo.
         echo Failure: You need to run this file as Administrator.
+        echo.
         echo Start this file by Right clicking and choose: Run as administrator
         pause
         exit
