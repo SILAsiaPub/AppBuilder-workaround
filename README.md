@@ -9,7 +9,12 @@ Uninstall Java 9 and get the latest version of Java 8.
 
 This workaround lets you create a keystore at the commandline. Use create-keystore.cmd
 
-This file will detect the path of Java 1.8 JDK and use that to create the keystore.
+This file will detect the path of Java 1.8 JDK and use that to create the keystore. 
+1. Download the Release. 
+2. Unzip it. 
+3. Put the file create-keystore.cmd into the folder "C:\users\%username&\Documents\App Builder\keystore". 
+4. Double click the file in Windows Explorer.
+5. Follow the prompts for filling in the rest of the information.
 
 ## 3 SAB 3.5 missing books in some OT books.
 
