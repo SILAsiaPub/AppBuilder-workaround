@@ -15,6 +15,7 @@ This file will detect the path of Java 1.8 JDK and use that to create the keysto
 3. Put the file create-keystore.cmd into the folder "C:\users\%username&\Documents\App Builder\keystore". 
 4. Double click the file in Windows Explorer.
 5. Follow the prompts for filling in the rest of the information.
+6. Now in your app builder choose this new keystore to create your app. Under App > App Signing \[tab\]
 
 ## 3 SAB 3.5 missing books in some OT books.
 
