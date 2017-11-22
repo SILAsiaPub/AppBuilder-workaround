@@ -1,10 +1,9 @@
 @echo off
 echo Creating a keystore with keystore_name and key_alias.
-if not defined 
 set keystorename=%1
 set keyalias=%2
 if not defined keystorename set /P keystorename=Enter your key store name (no spaces): 
-if not defined keyalias set \P keyalias=Enter your keystore alias (no spaces): 
+if not defined keyalias set /P keyalias=Enter your keystore alias (no spaces): 
 echo.
 echo Be sure to remember the pass word you use in the following prompts.
 echo.
