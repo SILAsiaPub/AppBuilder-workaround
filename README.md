@@ -47,3 +47,13 @@ This is not an SAB issue but rather a computer issue where .jar files are associ
 * Instead of the shortcut pointing to the .jar file, change the link so it points to the sab.bat file.
 * You can force your registry to point to your java insallations. See the jar-fix-reg.cmd. You must run this command prompt as Administrator. This process creates a backup file of your registration entry so it is easy to Merge the old entry back if somthing else breaks. It asks two questions about merging. Answer Yes to each one.
 * There are various FixJava programs available on the internet.
+
+## 5 Issue with *object heap*
+
+32 bit OS or 64 bit OS running 32 bit Java seem to have an issue with the **object heap** size. To fix this do the following.
+
+To do this:
+1. Create this file: C:\Users\yourname\.gradle\gradle.properties
+2. Add the following line:
+  org.gradle.jvmargs=-XX\:MaxHeapSize\=256m -Xmx256m
+3. Close SAB, reopen and try and build again.
