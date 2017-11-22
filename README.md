@@ -50,9 +50,9 @@ This is not an SAB issue but rather a computer issue where .jar files are associ
 
 ## 5 Issue with *object heap*
 
-32 bit OS or 64 bit OS running 32 bit Java seem to have an issue with the **object heap** size. To fix this do the following.
+32 bit OS or 64 bit OS running 32 bit Java seem to have an issue with the **object heap** size. 
 
-To do this:
+To fix this do the following:
 1. Create this file: C:\\Users\\yourname\\.gradle\\gradle.properties
 2. Add the following line:<br />
   org.gradle.jvmargs=-XX\:MaxHeapSize\=256m -Xmx256m
