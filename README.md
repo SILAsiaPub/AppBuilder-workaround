@@ -5,7 +5,7 @@ Workarounds for SAB, DAB, RAB
 
 Uninstall Java 9 and get the latest version of Java 8.
 
-## 2 SAB 3.5 bug in keystore creation <a id="h2-2"><;a>
+## 2 SAB 3.5 bug in keystore creation <a id="h2-2"></a>
 
 This workaround lets you create a keystore at the commandline. Use create-keystore.cmd
 
@@ -17,7 +17,7 @@ This file will detect the path of Java 1.8 JDK and use that to create the keysto
 5. Follow the prompts for filling in the rest of the information.
 6. Now in your app builder choose this new keystore to create your app. Under App > App Signing \[tab\]
 
-## 3 SAB 3.5 missing books in some OT books. <a id="h2-3"><;a>
+## 3 SAB 3.5 missing books in some OT books. <a id="h2-3"></a>
 
 The following books of the OT have some ommissions:
 
@@ -40,7 +40,7 @@ The following books of the OT have some ommissions:
   
 1. You just need to change the audio path, book and chapter numbers on three lines.
 
-## 4 App icon on desktop when clicked does not start SAB <a id="h2-4"><;a>
+## 4 App icon on desktop when clicked does not start SAB <a id="h2-4"></a>
 
 This is not an SAB issue but rather a computer issue where .jar files are associated with nothing or another program.
 
@@ -50,7 +50,7 @@ This is not an SAB issue but rather a computer issue where .jar files are associ
 * You can force your registry to point to your java insallations. See the jar-fix-reg.cmd. You must run this command prompt as Administrator. This process creates a backup file of your registration entry so it is easy to Merge the old entry back if somthing else breaks. It asks two questions about merging. Answer Yes to each one.
 * There are various FixJava programs available on the internet.
 
-## 5 Issue with *object heap* <a id="h2-5"><;a>
+## 5 Issue with *object heap* <a id="h2-5"></a>
 
 32 bit OS or 64 bit OS running 32 bit Java seem to have an issue with the **object heap** size. 
 
