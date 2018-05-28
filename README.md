@@ -24,6 +24,8 @@ The following books of the OT have some ommissions:
 * Malachai 4
 * Isiaih 66
 
+This is fixed since version: ???
+
 ### To fix this before the next version:
 
 
