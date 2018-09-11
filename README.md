@@ -1,9 +1,13 @@
 # AppBuilder-workaround
 Workarounds for SAB, DAB, RAB
 
-## 1 App Builders do not support Java 9. <a id="h2-1"></a>
+## 1 App Builders Java version support. <a id="h2-1"></a>
 
-Uninstall Java 9 and get the latest version of Java 8.
+* Windows
+  * Version 4.5 and below Java 8
+  * Version 4.6 and above Java 8, 9 and 10
+* Linux versions up to 4.6.1 Java 8
+* Mac versions up to 4.6.1 Java 8
 
 ## 2 SAB 3.5 bug in keystore creation <a id="h2-2"></a>
 
