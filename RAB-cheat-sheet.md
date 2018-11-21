@@ -25,6 +25,8 @@
 - `\video` URL to video on internet
 - `\img` file name of image to go at top of page
 - `\fig filename.jpg\fig*` used for inline picture insertion
+- `\fig |filename.jpg||||Caption here|\fig*` used for inline picture with caption.
+  - `\fig DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*` Full specification from USFM reference.
 - `[Hyperlink text](linklocation)` used for internal or external hyperlinks. Borrowed from Markdown.
 
 ## Other
