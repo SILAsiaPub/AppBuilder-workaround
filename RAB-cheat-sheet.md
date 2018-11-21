@@ -3,7 +3,7 @@
 ## Headings
 - `\id` Not displayed. Information about what is in the file. Metadata
 - `\h` or `\toc2` The wording that appears in the book list selection menu
-- `\toc3` The appreviation that appears in the Book grid selection menu
+- `\toc3` The abbreviation that appears in the Book grid selection menu
 
 ## Pages and Chapters
 - `\c` or `\page` Use to separate material into different chapters or pages
@@ -25,7 +25,7 @@
 - `\video` URL to video on internet
 - `\img` file name of image to go at top of page
 - `\fig filename.jpg\fig*` used for inline picture insertion
-- `[Hyperlink text](linklocation)` used for internal or extrnal hyperlinks. Borrowed from Markdown.
+- `[Hyperlink text](linklocation)` used for internal or external hyperlinks. Borrowed from Markdown.
 
 ## Other
 - `\v` used to number the verses in a song
