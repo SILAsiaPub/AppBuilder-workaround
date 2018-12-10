@@ -28,6 +28,8 @@
 - `\fig |filename.jpg||||Caption here|\fig*` used for inline picture with caption.
   - `\fig DESC|FILE|SIZE|LOC|COPY|CAP|REF\fig*` Full specification from USFM reference.
 - `[Hyperlink text](linklocation)` used for internal or external hyperlinks. Borrowed from Markdown.
+  - `[this page](https://github.com/SILAsiaPub/AppBuilder-workaround/edit/master/RAB-cheat-sheet.md)`
+  - `[go to Book Id B001 chapter 2 in app](B001.2)`
 
 ## Other
 - `\v` used to number the verses in a song
