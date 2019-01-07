@@ -30,6 +30,7 @@
 - `[Hyperlink text](linklocation)` used for internal or external hyperlinks. Borrowed from Markdown.
   - `[this page](https://github.com/SILAsiaPub/AppBuilder-workaround/edit/master/RAB-cheat-sheet.md)`
   - `[go to Book Id B001 chapter 2 in app](B001.2)`
+  - SAB cross collection links `[go to collection C03 and book MAT Chaper 1](C03/MAT.1)`
 
 ## Other
 - `\v` used to number the verses in a song
