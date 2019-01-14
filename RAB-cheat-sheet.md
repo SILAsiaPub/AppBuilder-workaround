@@ -20,6 +20,7 @@
 - `\mi` an indented paragraph no first line indent
 - `\q1` used in songs for song verse, indented with first line hanging indent
 - `\q2` used in songs for song chorus, more indented with first line hanging indent
+- `\rem` Not displayed. Comment line for your use
 
 ## Media
 - `\video` videoID (Video defined in Video section and video ID used now v5.0+)
@@ -32,8 +33,8 @@
   - `[go to Book Id B001 chapter 2 in app](B001.2)`
   - SAB cross collection links `[go to collection C03 and book MAT Chaper 1](C03/MAT.1)`
 
-## Other
-- `\v` used to number the verses in a song
+## Character markup
+- `\v` used to number the verses in a song, the number is out side of the indent.
+  `\q1 \v 1 First line of verse one`
 - `\bd bolded words\bd*` bold words
 - `\it italicised words\it*` italicised words
-- `\rem` Not displayed. Comment line for your use
