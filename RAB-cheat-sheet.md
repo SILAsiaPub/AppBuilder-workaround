@@ -22,7 +22,7 @@
 - `\q2` used in songs for song chorus, more indented with first line hanging indent
 
 ## Media
-- `\video` URL to video on internet
+- `\video` videoID (Video defined in Video sectiona dn video ID used now v5.0+)
 - `\img` file name of image to go at top of page
 - `\fig filename.jpg\fig*` used for inline picture insertion
 - `\fig |filename.jpg||||Caption here|\fig*` used for inline picture with caption.
