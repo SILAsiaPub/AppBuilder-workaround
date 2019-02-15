@@ -24,6 +24,7 @@
 
 ## Media
 - `\video` videoID (Video defined in Video section and video ID used now v5.0+)
+- Video can also be placed on pages without code on the page. 5.0+
 - `\img` file name of image to go at top of page
 - `\fig filename.jpg\fig*` used for inline picture insertion
 - `\fig |filename.jpg||||Caption here|\fig*` used for inline picture with caption.
