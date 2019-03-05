@@ -6,8 +6,10 @@ Workarounds for SAB, DAB, RAB
 ### For running the SAB, RAB application
 
 * Windows
-  * Version 4.5 and below Java 8
-  * Version 4.6 and above Java 8, 9 and 10
+  * Version 4.5 and below Java JRE 8
+   * For the build you must have JDK 8
+  * Version 4.6 and above Java JRE 8, 9 and 10 for SAB, RAB programs
+   * For the build you must have JDK 8
 * Linux versions up to 4.6.1 Java 8
 * Mac versions up to 4.6.1 Java 8
 
