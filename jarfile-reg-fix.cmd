@@ -1,4 +1,4 @@
-@echo off
+@echo on
 echo Starting to collect information about your system.
 call :check_Permissions
 call :detectdateformat
@@ -6,14 +6,14 @@ call :date
 call :time
 call :backupreg
 call :getjavaw
-call :writereg
+rem call :writereg
 goto :eof
 
 :getjavaw
 echo Checking where the Java JDK is installed.
 set KEY="HKLM\SOFTWARE\JavaSoft\Java Development Kit\1.8"
-FOR /F "usebackq skip=2 tokens=3,4" %%A IN (`REG QUERY %KEY% /v JavaHome`) DO set javapath=%%A %%B
-set javaw=%javapath%\jre\bin\javaw.exe
+FOR /F "usebackq delims=:" %%A IN (`REG QUERY %KEY% /v JavaHome`) DO set parta=%%A & set partb=%%B
+set javaw=%parta:~-1%:%partb%\jre\bin\javaw.exe
 echo Found at: %javapath%
 goto :eof
 
